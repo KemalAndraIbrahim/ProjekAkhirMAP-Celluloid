@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiActivity1">
+
+
+    <ImageView
+        android:id="@+id/footageamatir2"
+        android:layout_width="416dp"
+        android:layout_height="200dp"
+        android:background="@drawable/footagekurir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/Backbutton"
+        android:layout_width="69dp"
+        android:layout_height="57dp"
+        android:background="@drawable/dashboardshape2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/garishorizontal2"
+        android:layout_width="401dp"
+        android:layout_height="3dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footageamatir2"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/garisvertical2"
+        android:layout_width="3dp"
+        android:layout_height="235dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footageamatir2"
+        app:layout_constraintVertical_bias="0.332" />
+
+
+    <ImageView
+        android:id="@+id/posterinfo2"
+        android:layout_width="134dp"
+        android:layout_height="175dp"
+        android:background="@drawable/kurir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="238dp"
+        android:layout_height="57dp"
+        android:fontFamily="monospace"
+        android:text="Aku,Kamu Dan Kurir Napza"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/garisvertical2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/footageamatir2"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/sutradara2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Directed by Muhammad Ikzan"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/footageamatir2"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <TextView
+        android:id="@+id/deskripsi2"
+        android:layout_width="186dp"
+        android:layout_height="231dp"
+        android:text="Aku, Kamu Dan Kurir Napza , a film about a young boy named caul, he has to work to provide his family by doing illegal activity means to become a drug courier, where he meets gangs and criminal groups who are trying to attack caul and his boss, will caul survive and be able to beat them?"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sutradara2"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/dramatir"
+        android:layout_width="193dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/posterinfo2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/drkurir" />
+
+    <ImageView
+        android:id="@+id/crewamatir"
+        android:layout_width="183dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/posterinfo2"
+        app:layout_constraintVertical_bias="0.728"
+        app:srcCompat="@drawable/crewkurir" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiActivity2">
+
+
+    <ImageView
+        android:id="@+id/footageamatir3"
+        android:layout_width="405dp"
+        android:layout_height="198dp"
+        android:background="@drawable/footagerusun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/Backbutton"
+        android:layout_width="69dp"
+        android:layout_height="57dp"
+        android:background="@drawable/dashboardshape2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/garishorizontal3"
+        android:layout_width="401dp"
+        android:layout_height="3dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footageamatir3"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/garisvertical3"
+        android:layout_width="3dp"
+        android:layout_height="235dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footageamatir3"
+        app:layout_constraintVertical_bias="0.332" />
+
+
+    <ImageView
+        android:id="@+id/posterinfo3"
+        android:layout_width="134dp"
+        android:layout_height="175dp"
+        android:background="@drawable/rusun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <TextView
+        android:id="@+id/judul3"
+        android:layout_width="137dp"
+        android:layout_height="37dp"
+        android:fontFamily="monospace"
+        android:text="Rusunawa"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/garisvertical3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/footageamatir3"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:id="@+id/sutradara3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Directed by Raihan Jamil"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toEndOf="@+id/judul3"
+        app:layout_constraintTop_toTopOf="@+id/footageamatir3"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/deskripsi3"
+        android:layout_width="186dp"
+        android:layout_height="220dp"
+        android:text="Rusunawa , When a rusunawa in a metropolitan city is occupied by criminals who are trying to control the area, they fight over each other so that the business and interests of their group develop."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sutradara3"
+        app:layout_constraintVertical_bias="0.216" />
+
+    <ImageView
+        android:id="@+id/drrusun"
+        android:layout_width="193dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/posterinfo3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/drrusun" />
+
+    <ImageView
+        android:id="@+id/crewrusunr"
+        android:layout_width="183dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/posterinfo3"
+        app:layout_constraintVertical_bias="0.728"
+        app:srcCompat="@drawable/crewrusun" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

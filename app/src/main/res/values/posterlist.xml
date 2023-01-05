@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="posterlist">
+        <item>https://rgijwpedklqmmigkfqnw.supabase.co/storage/v1/object/sign/film/amatir.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaWxtL2FtYXRpci5wbmciLCJ0cmFuc2Zvcm1hdGlvbnMiOiIiLCJpYXQiOjE2NzI3MzUyOTcsImV4cCI6MTk4ODA5NTI5N30.ls9GWEQhLHQff3ETU6zwehM2k4NKRGY3oc0s-BYmiIY</item>
+        <item>https://rgijwpedklqmmigkfqnw.supabase.co/storage/v1/object/sign/film/kurir.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaWxtL2t1cmlyLnBuZyIsInRyYW5zZm9ybWF0aW9ucyI6IiIsImlhdCI6MTY3MjczNTM0NiwiZXhwIjoxOTg4MDk1MzQ2fQ.KmA8udY_os43QOQj398s08Ilqm5eGujyc4bTFMmIGTE</item>
+        <item>https://rgijwpedklqmmigkfqnw.supabase.co/storage/v1/object/sign/film/rusun.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaWxtL3J1c3VuLnBuZyIsInRyYW5zZm9ybWF0aW9ucyI6IiIsImlhdCI6MTY3MjczNTM3OSwiZXhwIjoxOTg4MDk1Mzc5fQ.c-0ZAQaI7QF1BMJs-JRuuTeno8oEPfTD9Vvr1brrNVU</item>
+        <item>https://rgijwpedklqmmigkfqnw.supabase.co/storage/v1/object/sign/film/ojek.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaWxtL29qZWsucG5nIiwidHJhbnNmb3JtYXRpb25zIjoiIiwiaWF0IjoxNjcyNzM1NDA5LCJleHAiOjE5ODgwOTU0MDl9.mwmYydJxT4_xqpkdo_elmL0npkfVsKYXqpjIqiYbkC4</item>
+    </string-array>
+
+</resources>
